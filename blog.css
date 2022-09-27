@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+}
+
+.d-flex{
+    margin-left: -6.5vw;
+}
+.ProjectContainer {
+    top: 2vh;
+    text-align: center;
+    margin-left: 8vw;
+}
+
+.container {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Heading{
+    font-size: 30px;
+}
+
+.Blogs {
+    margin-top: 5vh;
+}
+
+.card {
+    margin-top: 2vh;
+}
+
+.col-sm{
+    display: flex;
+}
+
+.col-sm .card{
+    margin-left: 50px;
+}

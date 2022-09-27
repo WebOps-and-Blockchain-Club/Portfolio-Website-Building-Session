@@ -1,0 +1,33 @@
+.main{
+    background-color: rgb(0, 0, 0);
+    width: 85vw;
+    margin-right: -15vw;
+}
+.ProjectContainer {
+    top: 2vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+}
+.carousel-item img {
+    height: 90vh;
+    width: 90vh;
+}
+
+.carousel-caption{
+    padding: 3px;
+}
+
+.Heading{
+    font-size: 30px;
+}
+
+button{
+    color: yellow;
+}

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+
+
+.links ul{
+    list-style: none;
+}
+
+#contactDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87vw;
+}
+
+.contact-box {
+  width: clamp(100px, 90%, 1000px);
+  margin: 80px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-links, .contact-form-wrapper {
+  width: 50%;
+  padding: 8% 5% 10% 5%;
+}
+
+
+.contact-links {
+  background:
+    radial-gradient(
+      circle at 55% 92%, #ebc715 0 12%, transparent 12.2%
+    ), 
+    radial-gradient(
+      circle at 94% 72%, #a2a00b 0 10%, transparent 10.2%
+    ), 
+    radial-gradient(
+      circle at 20% max(78%, 350px), #e6df26 0 7%, transparent 7.2%
+    ), 
+    radial-gradient(
+      circle at 0% 0%, #f0f358 0 40%, transparent 40.2%
+    ), 
+    #1f2e43;
+  border-radius: 10px 0 0 10px;
+  background-color: #ffc107;
+}
+
+.contact-form-wrapper {
+  background-color: #2a2828d1;
+  border-radius: 0 10px 10px 0;
+  color: white;
+}
+
+
+.name{
+display: flex;
+justify-content: space-around;
+padding-bottom: 5vh;
+font-weight: bold;
+}
+
+.name .head{
+color: rgb(236, 236, 11); 
+}
+.email{
+display: flex;
+justify-content: space-around;
+margin-left: 40px;
+padding-bottom: 5vh;
+font-weight: bold;
+}
+
+.email .head{
+color: yellow;  
+}
+.number{
+display: flex;  
+justify-content: space-around;
+margin-left: -10px;
+font-weight: bold;
+}
+.number .head{
+color: yellow;
+}
+h2 {
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+  font-size: clamp(30px, 6vw, 60px);
+  letter-spacing: 2px;
+  text-align: center;
+  transform: scale(.95, 1);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.d-flex ul {
+  margin-top: -17px;
+}
+
+.top{
+  margin-top: -4vh;
+}
